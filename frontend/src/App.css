@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*
+{
+  padding:0;
+  margin:0;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 20px;
+}
+:root
+{
+  --background:#3a4189;
+}
+html
+{
+  height:100%;
+}
+body
+{
+ height:inherit;
+}
+#root
+{
+ background-color: var(--background);
+ height:100%;
+}
+#menu a
+{
+  color:white;
+}
+#navbarNav
+{
+  justify-content: flex-end;
+}
+.nav-item
+{
+  border-radius:10px;
+  margin-right:20px;
+  transition: background-color 0.5s;
+}
+.nav-item:hover
+{
+ background-color:#f1f3fc;
+}
+.nav-item:hover a
+{
+  color:var(--background) !important;
+}
+.img
+{
+  width:96%; 
+  height:800px; 
+  display:flex;
+  justify-content: center;
+  background-image: url("../public/img/celebration.jpg");
+  background-size:100% 800px;
+  border-radius:20px;
+  display:flex;
+  justify-items: center;
+  align-items:center;
+}
+.navbar-brand
+{
+  margin-left:20px;
+}
+#home
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:800px;
+  /* border-top:solid white 2pt; */
+}
+.event-desc 
+{
+  width:85%;
+  height:400px;
+  backdrop-filter: blur(10px);
+  color:white;
+  padding:10px;
+  border-radius:10px; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  /* background-color:#3a418994; */
+}
+.h1
+{
+  font-variant: small-caps;
+  font-size:50px;
+}
+.desc
+{
+  text-align:justify;
+  padding:0 30px;
+  width:700px;
+  
+}
+.get-started .nav-item
+{
+  background-color:var(--background);
+}
+.get-started .nav-item:hover
+{
+  background-color: white;
+}
+.get-started .nav-item:hover a{
+  color:var(--background) !important;
+}
+.form_element
+{
+  background-color: #f1f3fc;
+  width:96%;
+  border-radius:10px;
+  padding:30px 30px;
+}
+#registeration
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:800px;
+  flex-direction: column;
+
+}
+#registered_list
+{
+  height:800px;
+  display:flex;
+  margin-top:100px;
+  justify-content:center;
+}
+#table
+{
+  width: 95%;
+}
+.btn_style
+{
+  margin-left:20px;
+}
+.btn_flex
+{
+  display:flex;
+  justify-content:center;
+
+}
+thead tr th:last-child{
+  text-align: center;
+}
+
+.num
+{
+  text-align:center;
+}
